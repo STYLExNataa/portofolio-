@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Immanuel Pranataa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Immanuel Pranataa</h1>
+      <ul class="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <button id="dark-mode-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Halo! Saya Nataa</h2>
+      <p>Fullstack Developer | UI/UX Enthusiast</p>
+      <a href="#projects" class="btn">Lihat Proyek</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya seorang mahasiswa jurusan tjkt (teknik jaringan komputer dan telekomunikasi) di smkn1 padahaerang, saya juga seorang programer web yang fokus pada frontend dan backend modern. Saya menciptakan website interaktif, mobile-friendly, dan estetis.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Proyek</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Dashboard Admin</h3>
+        <p>Vue.js, Tailwind, Firebase</p>
+      </div>
+      <div class="project-card">
+        <h3>Aplikasi Catatan</h3>
+        <p>React, LocalStorage, CSS Grid</p>
+      </div>
+      <div class="project-card">
+        <h3>Website Company Profile</h3>
+        <p>HTML, SCSS, Bootstrap</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Nama" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Pesan" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Immanuel Pranataa. Dibuat dengan ❤️ dan JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
